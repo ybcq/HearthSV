@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections;
+
+public class DancingRuneWeapon : SpellCard
+{
+	public DancingRuneWeapon()
+	{
+		this.Name = "持斧食尸鬼";
+		this.Description = "Summon a Ghoul with Attack and Health equal to your weapon's Attack and Durability.";
+		this.Class = HeroClass.DeathKnight;
+		this.Rarity = CardRarity.Common;
+		this.TargetType = TargetType.NoTarget;
+		this.BaseCost = 1;
+		base.InitializeSpell();
+	}
+
+	public override bool CanCast()
+	{
+		return this.Player.HasWeapon();
+	}
+
+	public override IEnumerator Cast(Character target)
+	{
+		ChargeTurnGhoul DancingRuneWeaponCard = new ChargeTurnGhoul
+		{
+			BaseAttack = this.Player.Weapon.CurrentAttack,
+			BaseHealth = this.Player.Weapon.CurrentDurability,
+			CurrentHealth = this.Player.Weapon.CurrentDurability
+		};
+		yield return this.Player.SummonMinion(DancingRuneWeaponCard);
+		if (DancingRuneWeaponCard.Minion != null)
+		{
+			DancingRuneWeaponCard.Minion.HasCharge = false;
+			DancingRuneWeaponCard.Minion.Mechanics.RemoveAll();
+		}
+		yield break;
+	}
+}

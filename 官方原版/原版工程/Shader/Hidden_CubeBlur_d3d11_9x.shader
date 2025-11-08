@@ -1,0 +1,53 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Hidden/CubeBlur" {
+Properties {
+_MainTex ("Main", Cube) = "" { }
+_Texel ("Texel", Float) = 0.0078125
+_Level ("Level", Float) = 0
+_Scale ("Scale", Float) = 1
+}
+SubShader {
+ LOD 200
+ Tags { "RenderType" = "Opaque" }
+ Pass {
+  LOD 200
+  Tags { "RenderType" = "Opaque" }
+  ZClip Off
+  ZTest Always
+  ZWrite Off
+  Cull Off
+  GpuProgramID 20390
+Program "vp" {
+}
+Program "fp" {
+}
+}
+}
+SubShader {
+ LOD 200
+ Tags { "RenderType" = "Opaque" }
+ Pass {
+  LOD 200
+  Tags { "RenderType" = "Opaque" }
+  ZClip Off
+  ZTest Always
+  ZWrite Off
+  Cull Off
+  GpuProgramID 110730
+Program "vp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+}
+}

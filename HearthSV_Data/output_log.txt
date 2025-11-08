@@ -1,0 +1,398 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.2824
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\System.Reactive.dll (this message is harmless)
+Loading E:\Projects\HSMOD\HearthSV_Data\Managed\System.Reactive.dll into Unity Child Domain
+- Completed reload, in  0.277 seconds
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Projects\HSMOD\HearthSV_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 2640x1280 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.852900 ms
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Attack from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Health from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Armor from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load AvailableCrystal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load UsedCrystal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load OverloadedCrystal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Enraged from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Meditate from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_NormalToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_LegendaryToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load HeroPower_FrontToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load HeroPower_BackToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Weapon_OpenToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Weapon_ClosedToken from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_LegendaryMinion_Echo from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Minion_Echo from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Spell_Echo from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Weapon_Echo from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_LegendaryMinion_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Minion_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Spell_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Weapon_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_LegendaryMinion_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Minion_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Spell_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Weapon_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Normal_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Card_Normal_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Portrait_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Portrait_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Portrait_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Power_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Power_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Hero_Power_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Legendary_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Legendary_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Legendary_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_LegendaryTaunt_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_LegendaryTaunt_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_LegendaryTaunt_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Normal_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Normal_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_Normal_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_NormalTaunt_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_NormalTaunt_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Minion_NormalTaunt_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Weapon_GreenGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Weapon_RedGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Weapon_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Banner_BlueGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Banner_WhiteGlow from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load DamageSplat from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load HealSplat from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Cross from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Banner_DeathKnight from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Banner_Monk from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load BannerShade from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load BannerHero_Token from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load NumbersWhite from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load NumbersGreen from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load NumbersRed from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Button_Medium_Front from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Button_Circle_Front from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+async texture load: failed to load Button_Medium_Back from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+async texture load: failed to load Spinner_Normal_Horizontal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Button_Big_Front from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+async texture load: failed to load ArrowLeft_Shake from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load ArrowLeft_Normal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Background from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load ArrowRight_Shake from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+async texture load: failed to load SelectorBlock from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load Spinner_Shake_Horizontal from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Could not open file E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS for read
+ 
+(Filename:  Line: 54)
+
+async texture load: failed to load RaiseGhoul_Token from E:/Projects/HSMOD/HearthSV_Data/resources.assets.resS
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 5660 -> priority: 1 
+  Thread -> id: 5a10 -> priority: 1 
+  Thread -> id: 8bc -> priority: 1 

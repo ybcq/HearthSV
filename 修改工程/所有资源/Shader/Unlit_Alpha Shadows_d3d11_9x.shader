@@ -1,0 +1,187 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Unlit/Alpha Shadows" {
+Properties {
+_Color ("Main Color", Color) = (1,1,1,1)
+_MainTex ("Base (RGB) Trans (A)", 2D) = "white" { }
+_Cutoff ("Alpha cutoff", Range(0, 1)) = 0.5
+}
+SubShader {
+ LOD 100
+ Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+ Pass {
+  Name "FORWARD"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "ForwardBase" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" "SHADOWSUPPORT" = "true" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 20520
+Program "vp" {
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL" "VERTEXLIGHT_ON" }
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL" }
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+ Pass {
+  Name "FORWARD"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "ForwardAdd" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 110414
+Program "vp" {
+SubProgram "d3d11_9x " {
+Keywords { "POINT_COOKIE" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "POINT" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL_COOKIE" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "SPOT" }
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+Keywords { "POINT_COOKIE" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "POINT" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL_COOKIE" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "DIRECTIONAL" }
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "SPOT" }
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+ Pass {
+  Name "PREPASS"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "PrePassBase" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 178285
+Program "vp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+ Pass {
+  Name "PREPASS"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "PrePassFinal" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 233089
+Program "vp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "UNITY_HDR_ON" }
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "UNITY_HDR_ON" }
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+ Pass {
+  Name "DEFERRED"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "Deferred" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 324939
+Program "vp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "UNITY_HDR_ON" }
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+SubProgram "d3d11_9x " {
+Keywords { "UNITY_HDR_ON" }
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+ Pass {
+  Name "META"
+  LOD 100
+  Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "Meta" "QUEUE" = "AlphaTest" "RenderType" = "TransparentCutout" }
+  ZClip Off
+  ZWrite Off
+  Cull Off
+  GpuProgramID 346204
+Program "vp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+Program "fp" {
+SubProgram "d3d11_9x " {
+"// shader disassembly not supported on DXBC"
+}
+}
+}
+}
+Fallback "Transparent/Cutout/VertexLit"
+}
